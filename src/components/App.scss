@@ -1,14 +1,39 @@
-.app {
+$textColor: grey;
+
+// $underlinedTextColor: red;
+@mixin flex {
+  // sass approach
   display: flex;
-  margin: 0 auto;
   flex-direction: column;
 }
 
-.app__block {
-  padding: 10px;
-}
 
-.app__paragraph {
-  padding: 0;
-  margin: 0;
+.app {
+  @include flex(); // sass approach
+
+  margin: 0 auto;
+
+  .app__block {
+    padding: 10px;
+    color: $textColor; // sass approach
+
+    .app__paragraph {
+      padding: 0;
+      margin: 0;
+    }
+
+    .app__paragraph_underlined {
+      color: var(--text-color); // CSS Custom Properties 
+
+      &:hover {
+        // sass approach
+        transition: (0.3s);
+        color: $textColor;
+      }
+    }
+
+    // .app__paragraph_underlined:hover { // CSS Custom Properties 
+    //   color: $textColor;
+    // }
+  }
 }

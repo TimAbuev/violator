@@ -12,7 +12,7 @@ function App() {
 
       </section>
       <section className='app__block'>
-        <p className='app__paragraph'>        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <p className='app__paragraph app__paragraph_underlined'>        Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Non ullam ad debitis sint praesentium eveniet beatae corrupti itaque quae laudantium doloribus,
           aperiam libero voluptatem hic quod vero optio? Nostrum, est?</p>
 
