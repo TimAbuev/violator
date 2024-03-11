@@ -1,3 +1,14 @@
 .app {
-display: flex;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.app__block {
+  padding: 10px;
+}
+
+.app__paragraph {
+  padding: 0;
+  margin: 0;
 }
