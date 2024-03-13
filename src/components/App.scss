@@ -1,29 +1,27 @@
 $textColor: grey;
 
-// $underlinedTextColor: red;
-@mixin flex {
-  // sass approach
+@mixin flex($direction) {
   display: flex;
-  flex-direction: column;
+  flex-direction: $direction;
+  justify-content: center;
+  align-items: center;
 }
 
-
 .app {
-  @include flex(); // sass approach
-
+  @include flex(column);
+  padding: 0 10px;
   margin: 0 auto;
 
-  .app__block {
-    padding: 10px;
-    color: $textColor; // sass approach
+  .app__block_splitted {
+    @include flex(row);
 
     .app__paragraph {
-      padding: 0;
+      padding: 0 10px;
       margin: 0;
     }
 
     .app__paragraph_underlined {
-      color: var(--text-color); // CSS Custom Properties 
+      color: var(--text-color);
 
       &:hover {
         // sass approach
@@ -31,9 +29,13 @@ $textColor: grey;
         color: $textColor;
       }
     }
-
-    // .app__paragraph_underlined:hover { // CSS Custom Properties 
-    //   color: $textColor;
-    // }
   }
+
+  .app__block {
+    padding: 10px;
+    color: $textColor; // sass approach
+    @include flex(column);
+
+  }
+
 }
