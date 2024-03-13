@@ -1,6 +1,6 @@
-$textColor: grey;
+$textColor: grey; // sass approach
 
-@mixin flex($direction) {
+@mixin flex($direction) { // sass approach
   display: flex;
   flex-direction: $direction;
   justify-content: center;
@@ -22,6 +22,7 @@ $textColor: grey;
 
     .app__paragraph_underlined {
       color: var(--text-color);
+      width: 100% - 30%; // sass approach
 
       &:hover {
         // sass approach
