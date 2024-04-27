@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/violator/static/css/main.8ca5e4e4.css",
-    "main.js": "/violator/static/js/main.1d82dffa.js",
-    "static/js/453.416f39b3.chunk.js": "/violator/static/js/453.416f39b3.chunk.js",
+    "main.css": "/violator/static/css/main.bdc0b9f6.css",
+    "main.js": "/violator/static/js/main.aa2e94b2.js",
+    "static/media/Inter-Medium.woff": "/violator/static/media/Inter-Medium.9053572c46aeb4b16caa.woff",
+    "static/media/Inter-Black.woff": "/violator/static/media/Inter-Black.c6938660eec019fefd68.woff",
+    "static/media/Inter-Regular.woff": "/violator/static/media/Inter-Regular.8c206db99195777c6769.woff",
+    "static/media/Inter-Medium.woff2": "/violator/static/media/Inter-Medium.293fd13dbca5a3e450ef.woff2",
+    "static/media/Inter-Black.woff2": "/violator/static/media/Inter-Black.15ca31c0a2a68f76d2d1.woff2",
+    "static/media/Inter-Regular.woff2": "/violator/static/media/Inter-Regular.c8ba52b05a9ef10f4758.woff2",
     "index.html": "/violator/index.html",
-    "main.8ca5e4e4.css.map": "/violator/static/css/main.8ca5e4e4.css.map",
-    "main.1d82dffa.js.map": "/violator/static/js/main.1d82dffa.js.map",
-    "453.416f39b3.chunk.js.map": "/violator/static/js/453.416f39b3.chunk.js.map"
+    "main.bdc0b9f6.css.map": "/violator/static/css/main.bdc0b9f6.css.map",
+    "main.aa2e94b2.js.map": "/violator/static/js/main.aa2e94b2.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ca5e4e4.css",
-    "static/js/main.1d82dffa.js"
+    "static/css/main.bdc0b9f6.css",
+    "static/js/main.aa2e94b2.js"
   ]
 }
