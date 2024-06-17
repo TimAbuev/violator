@@ -1,11 +1,18 @@
 import React from 'react';
 import './App.scss';
 
+// function handleError(errmsg: string): never {
+//   throw new Error()
+// }
+
+// console.log(handleError('Tom'));
+
+
 function App() {
   return (
     <div className="app">
       <section className='app__block'>
-        <h1>I'm going to learn SASS</h1>
+        <h1>I'm going to learn Typescipt and Redux</h1>
         <p className='app__paragraph'>        Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Non ullam ad debitis sint praesentium eveniet beatae corrupti itaque quae laudantium doloribus,
           aperiam libero voluptatem hic quod vero optio? Nostrum, est?</p>
@@ -22,7 +29,6 @@ function App() {
           alias a corrupti! Pariatur molestias ab quae odio ipsa
           accusantium aliquid!</p>
       </section>
-
     </div>
   );
 }
